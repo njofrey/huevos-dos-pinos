@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Screenshots
+Screenshot*.png
+
+# Thumbnails
+._*
+
+# Editor directories
+.vscode/
+.idea/
+
+# Node modules (if needed later)
+node_modules/
