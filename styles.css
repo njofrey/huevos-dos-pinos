@@ -17,7 +17,22 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: #F0EFEE;
+    background-image: url('huevos.gif');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(240, 239, 238, 0.92);
+    z-index: 0;
 }
 
 /* Hero Section */
@@ -29,6 +44,7 @@ body {
     padding: 2rem;
     text-align: center;
     position: relative;
+    z-index: 1;
 }
 
 .hero-content {
@@ -163,9 +179,11 @@ body {
 
 /* Footer */
 .footer {
-    background-color: #F0EFEE;
+    background-color: transparent;
     color: #131212;
     padding: 2.5rem 1.5rem;
+    position: relative;
+    z-index: 1;
 }
 
 .footer-content {
@@ -211,6 +229,10 @@ body {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    body {
+        background-attachment: scroll;
+    }
+
     .hero {
         padding: 1.5rem;
     }
