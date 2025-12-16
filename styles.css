@@ -150,33 +150,6 @@ body::before {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Horarios */
-.horarios {
-    padding: 2rem;
-    margin-top: 1rem;
-}
-
-.horarios h2 {
-    font-family: 'Montserrat', sans-serif;
-    color: #131212;
-    font-size: 1.2rem;
-    font-weight: 600;
-    margin-bottom: 1rem;
-    letter-spacing: 0.08em;
-    opacity: 0.9;
-}
-
-.horarios-list p {
-    color: #131212;
-    font-size: 1.1rem;
-    font-weight: 400;
-    line-height: 1.8;
-}
-
-.horarios-list strong {
-    font-weight: 700;
-}
-
 /* Footer */
 .footer {
     background-color: transparent;
@@ -258,18 +231,6 @@ body::before {
         max-width: 320px;
         margin: 0 auto;
         padding: 1.3rem 2rem;
-    }
-
-    .horarios {
-        padding: 1.5rem 1rem;
-    }
-
-    .horarios h2 {
-        font-size: 1.1rem;
-    }
-
-    .horarios-list p {
-        font-size: 1rem;
     }
 
     .footer {
